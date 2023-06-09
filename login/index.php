@@ -143,11 +143,4 @@
             </div>
         </div>
     </body>
-    <script>
-        const bannerElmnt = document.getElementsByTagName("div");
-        bannerElmnt[bannerElmnt.length - 1].remove();
-        const bannerScript = document.getElementsByTagName("script");
-        bannerScript[bannerScript.length - 2].remove();
-        bannerScript[bannerScript.length - 1].remove();
-    </script>
 </html>
