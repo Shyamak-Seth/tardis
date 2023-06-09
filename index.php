@@ -199,11 +199,4 @@
             <p style="color: orange;">&copy; Copyright TARDIS 2023-<?php echo date("Y"); ?>. All rights reserved.</p>
         </footer>
     </body>
-    <script>
-        const bannerElmnt = document.getElementsByTagName("div");
-        bannerElmnt[bannerElmnt.length - 1].remove();
-        const bannerScript = document.getElementsByTagName("script");
-        bannerScript[bannerScript.length - 2].remove();
-        bannerScript[bannerScript.length - 1].remove();
-    </script>
 </html>
