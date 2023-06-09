@@ -132,13 +132,30 @@
                 0% {opacity: 0; transform: translate(-15px, 0px);}
                 100% {opacity: 1; transform: translate(0, 0);}
             }
+            @media only screen and (max-width: 700px) and (min-width: 600px) {
+                .logo {width: 120px !important;}
+                .cardsContainer {flex-direction: column;}
+                .card {width: 100%; margin-bottom: 25px;}
+            }
+            @media only screen and (max-width: 600px) and (min-width: 400px) {
+                .logo {width: 100px !important;}
+                .cardsContainer {flex-direction: column;}
+                .card {width: 100%; margin-bottom: 25px;}
+                .nav-item {font-size: 0.9em; padding: 10px 15px;}
+            }
+            @media only screen and (max-width: 400px) {
+                .logo {width: 80px !important;}
+                .cardsContainer {flex-direction: column;}
+                .card {width: 100%; margin-bottom: 25px;}
+                .nav-item {font-size: 0.8em; padding: 10px 7px;}
+            }
         </style>
     </head>
     <body>
         <div class="header">
             <div class="nav">
                 <div class="logo">
-                    <img src="tardisLogo.png" width=170>
+                    <img src="tardisLogo.png" style="width: 170px;" class="logo">
                 </div>
                 <div class="nav-cont">
                     <a class="nav-item" href="#">Home</a>
